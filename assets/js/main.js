@@ -5,12 +5,12 @@ function checkAnswer() {
       const correctAnswer = 'b';
 
       if (userAnswer.value === correctAnswer) {
-        document.getElementById('quiz-feedback').textContent = '¡Respuesta correcta!';
+        document.getElementById('quiz-feedback').textContent = '¡Resposta correta!';
       } else {
-        document.getElementById('quiz-feedback').textContent = 'Respuesta incorrecta. Intenta de nuevo.';
+        document.getElementById('quiz-feedback').textContent = 'Resposta incorreta. Tenta de novo.';
       }
     } else {
-      document.getElementById('quiz-feedback').textContent = 'Debes seleccionar una respuesta antes de verificar.';
+      document.getElementById('quiz-feedback').textContent = 'Você deve selecionar uma resposta antes de selecionar.';
     }
   }
 
